@@ -13,5 +13,5 @@ Example of use:
 See: [Github Page](http://www.github.com/cobbdb/ensure)
 
 ---
-By Dan Cobb: <cobbdb@gmail.com>
+By Dan Cobb: <cobbdb@gmail.com>  
 License: MIT
