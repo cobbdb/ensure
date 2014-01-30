@@ -3,6 +3,9 @@
  * License MIT.
  * @author Dan Cobb
  * @param {Object} suspect The variable to inspect.
+ * @example
+ *     var msg = "Hello World!";
+ *     ENSURE(msg).isa('string');
  */
 var ENSURE = function (suspect) {
     var actual = typeof suspect;
