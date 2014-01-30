@@ -7,7 +7,7 @@
  *     var msg = "Hello World!";
  *     ENSURE(msg).isa('string');
  */
-module.exports = function (suspect) {
+var ENSURE = function (suspect) {
     var actual = typeof suspect;
     return {
         /**

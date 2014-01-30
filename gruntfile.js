@@ -13,14 +13,16 @@ module.exports = function (grunt) {
             },
             default: {
                 src: [
-                    'ensure.js'
+                    'ensure.js',
+                    'ensure.raw.js'
                 ]
             }
         },
         watch: {
             scripts: {
                 files: [
-                    'ensure.js'
+                    'ensure.js',
+                    'ensure.raw.js'
                 ],
                 tasks: [
                     'default'
