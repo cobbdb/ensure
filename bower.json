@@ -1,0 +1,17 @@
+{
+  "name": "ensure",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "**/*.json",
+    "gruntfile.js"
+  ],
+  "main": "ensure.min.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
