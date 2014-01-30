@@ -4,8 +4,9 @@
  * @author Dan Cobb
  * @param {Object} suspect The variable to inspect.
  * @example
+ *     var ensure = require('bower_components/ensure/ensure');
  *     var msg = "Hello World!";
- *     ENSURE(msg).isa('string');
+ *     ensure(msg).isa('string');
  */
 module.exports = function (suspect) {
     var actual = typeof suspect;

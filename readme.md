@@ -7,8 +7,9 @@ Easy JavaScript type insurance.
 
 Example of use:
 
+    var ensure = require('bower_components/ensure/ensure');
     var msg = "Hello World!";
-    ENSURE(msg).isa('string');
+    ensure(msg).isa('string');
 
 Files are:
 
