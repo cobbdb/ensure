@@ -1,20 +1,33 @@
 {
-  "name": "ensure",
-  "scripts": {
-  },
+  "name": "ensure-it",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "http://github.com/cobbdb/ensure.git"
   },
   "author": "Dan Cobb",
   "license": "MIT",
-  "readmeFilename": "readme.md",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-uglify": "~0.3.2"
-  }
+  },
+  "description": "Ensure ======",
+  "bugs": {
+    "url": "https://github.com/cobbdb/ensure/issues"
+  },
+  "version": "0.0.0",
+  "main": "ensure.js",
+  "keywords": [
+    "type",
+    "checking",
+    "verify",
+    "api",
+    "tools",
+    "util",
+    "assert",
+    "test"
+  ]
 }
