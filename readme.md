@@ -4,16 +4,17 @@ Ensure
 Easy JavaScript type insurance.
 
     $ bower install ensure
+    $ npm install ensure-it
 
 Example of use:
 
-    var ensure = require('bower_components/ensure/ensure');
+    var ensure = require('ensure-it');
     var msg = "Hello World!";
     ensure(msg).isa('string');
 
 Files are:
 
-* ensure.js: Browserify module definition.
+* ensure.js: Browserify/Node module definition.
 * ensure.raw.js: provides a global variable ENSURE.
 * ensure.min.js: minified version of ensure.raw.js
 
