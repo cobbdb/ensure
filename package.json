@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/cobbdb/ensure/issues"
   },
-  "version": "0.0.0",
+  "version": "1.0.3",
   "main": "ensure.js",
   "keywords": [
     "type",
