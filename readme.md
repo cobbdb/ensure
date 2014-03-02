@@ -1,7 +1,7 @@
 Ensure
 ======
 
-Easy JavaScript type insurance.
+Easy JavaScript type assurance.
 
     $ bower install ensure
     $ npm install ensure-it
